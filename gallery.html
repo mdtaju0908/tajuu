@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Md Taju</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="icon" href="images/M.jpg" type="image/svg+xml">
+</head>
+<body class="dark-theme">
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon active"></i>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Md Taju</div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Gallery</h1>
+                <p>A visual journey through my events, appearances, and moments</p>
+            </div>
+        </section>
+
+        <section class="gallery-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                    <button class="filter-btn" data-filter="speaking">Speaking</button>
+                    <button class="filter-btn" data-filter="awards">Awards</button>
+                    <button class="filter-btn" data-filter="travel">Travel</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="gallery-container">
+                    <!-- Events Category -->
+                    <div class="gallery-item" data-category="events">
+                        <a href="images/photo.jpg" data-lightbox="gallery" data-title="Profile Photo 2024 - VGU">
+                            <img src="images/photo.jpg" alt="Profile">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Profile Photo 2024</h3>
+                                    <p>VGU</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="events">
+                        <a href="images/3.jpg" data-lightbox="gallery" data-title="Event - VGU Campus">
+                            <img src="images/3.jpg" alt="Innovation Summit">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Event</h3>
+                                    <p>VGU Campus</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="events">
+                        <a href="images/4.jpg" data-lightbox="gallery" data-title="Class Photos with Friend - Funn">
+                            <img src="images/4.jpg" alt="AI Expo 2023">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Class Photos with Friend</h3>
+                                    <p>Funn</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Speaking Category -->
+                    <div class="gallery-item" data-category="speaking">
+                        <a href="images/6.jpg" data-lightbox="gallery" data-title="TDP Examination - TDP Project Examination with External">
+                            <img src="images/6.jpg" alt="Keynote Speech">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>TDP Examination</h3>
+                                    <p>TDP Project Examination with External</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="speaking">
+                        <a href="images/Tdp dis.jpg" data-lightbox="gallery" data-title="TDP & Group - TDP Project Discussion">
+                            <img src="images/Tdp dis.jpg" alt="TED Talk">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>TDP & Group</h3>
+                                    <p>TDP Project Discussion</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="speaking">
+                        <a href="images/14.jpg" data-lightbox="gallery" data-title="Workshop Session - Practical AI Implementation">
+                            <img src="images/14.jpg" alt="Workshop Session">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Vivek Bharat Mandal</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Awards Category -->
+                    <div class="gallery-item" data-category="awards">
+                        <a href="images/13.jpg" data-lightbox="gallery" data-title="Tech Innovator Award 2022 - Recognition Ceremony">
+                            <img src="images/13.jpg" alt="Tech Innovator Award">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Tech Innovator Award</h3>
+                                    <p>Recognition Ceremony 2022</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="awards">
+                        <a href="images/8.jpg" data-lightbox="gallery" data-title="AI Research Excellence Award - International AI Conference">
+                            <img src="images/8.jpg" alt="AI Research Excellence Award">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>AI Research Excellence</h3>
+                                    <p>International AI Conference</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="awards">
+                        <a href="images/9.jpg" data-lightbox="gallery" data-title="Best Speaker Award - Tech Conference 2021">
+                            <img src="images/9.jpg" alt="Best Speaker Award">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Best Speaker Award</h3>
+                                    <p>Tech Conference 2021</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Travel Category -->
+                    <div class="gallery-item" data-category="travel">
+                        <a href="images/10.jpg" data-lightbox="gallery" data-title="International Conference - Tokyo, Japan">
+                            <img src="images/10.jpg" alt="Tokyo Conference">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>International Conference</h3>
+                                    <p>Tokyo, Japan</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="travel">
+                        <a href="images/11.jpg" data-lightbox="gallery" data-title="Tech Summit - Silicon Valley, USA">
+                            <img src="images/11.jpg" alt="Silicon Valley Summit">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Tech Summit</h3>
+                                    <p>Silicon Valley, USA</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="travel">
+                        <a href="images/12.jpg" data-lightbox="gallery" data-title="Innovation Workshop - Berlin, Germany">
+                            <img src="images/12.jpg" alt="Berlin Workshop">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Innovation Workshop</h3>
+                                    <p>Berlin, Germany</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- More Mixed Categories -->
+                    <div class="gallery-item" data-category="events speaking">
+                        <a href="images/VGU.jpg" data-lightbox="gallery" data-title="Tech Panel - Future of Work Discussion">
+                            <img src="images/VGU.jpg" alt="Tech Panel">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Tech Panel</h3>
+                                    <p>Future of Work Discussion</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="events awards">
+                        <a href="images/5.jpg" data-lightbox="gallery" data-title="Annual Tech Awards - Recognition Ceremony">
+                            <img src="images/5.jpg" alt="Annual Tech Awards">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>Annual Tech Awards</h3>
+                                    <p>Recognition Ceremony</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery-item" data-category="speaking travel">
+                        <a href="images/15.jpg" data-lightbox="gallery" data-title="International AI Summit - Paris, France">
+                            <img src="images/15.jpg" alt="International AI Summit">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <h3>International AI Summit</h3>
+                                    <p>Paris, France</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Want to feature me at your next event?</h2>
+                    <p>I'm available for speaking engagements, panel discussions, and workshops on AI, technology, and innovation.</p>
+                    <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Md Taju</h2>
+                    <p>AI & ML Enthusiast | Exploring New Technologies</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Connect & Follow us:</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/md_taju0908/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/md.taju0908/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/md-taju0908/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/md_taju0908/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/@md_taju0908" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Md Taju. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

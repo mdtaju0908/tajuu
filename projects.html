@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Md Taju</title>
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/M.jpg" type="image/svg+xml">
+</head>
+<body class="dark-theme">
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon active"></i>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Md Taju</div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Explore my portfolio of innovative work and creative solutions</p>
+            </div>
+        </section>
+
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="ai">AI & ML</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="research">Research</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <div class="projects-container">
+                    <!-- AI & ML Projects -->
+                    <div class="project-item" data-category="ai">
+                        <div class="project-image">
+                            <img src="images/tdp.jpg" alt="tdp">
+                        </div>
+                        <div class="project-content">
+                            <h3>AI BASED HUMAN SAFETY SMART BRACELET</h3>
+                            <p class="project-category">Artificial Intelligence & Machine Learning</p>
+                            <p class="project-description">The AI-Based Human Safety Smart Bracelet is an innovative wearable that uses AI, IoT, GPS, and sensors to monitor the user's environment and health. In emergencies like accidents, health issues, or threats, it instantly alerts emergency contacts and authorities with real-time location and vital data.<p>
+                            <div class="project-tech">
+                                <span>Software</span>
+                                <span>Hardware</span>
+                                <span>Researching</span>
+                                <span>Group Project</span>
+                                <span>Academic Project</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">View Project</a>
+                                <a href="#" class="btn secondary-btn">Research Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="ai research">
+                        <div class="project-image">
+                            <img src="images/Calculator.jpg" alt="Calculator">
+                        </div>
+                        <div class="project-content">
+                            <h3>Web Calculator</h3>
+                            <p class="project-category">Machine Learning</p>
+                            <p class="project-description">This project is a simple yet functional calculator built using HTML, CSS, and JavaScript. The calculator is designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The clean user interface (UI) is built using HTML and styled with CSS, while the logic behind the operations is handled using JavaScript.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <!--<span>Data Visualization</span>-->
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">View Project</a>
+                                <a href="#" class="btn secondary-btn">Research Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development Projects 
+                    <div class="project-item" data-category="web">
+                        <div class="project-image">
+                            <img src="images/project3.svg" alt="E-Learning Platform">
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Learning Platform</h3>
+                            <p class="project-category">Web Development</p>
+                            <p class="project-description">A comprehensive e-learning platform with interactive courses, progress tracking, and personalized learning paths for students and professionals.</p>
+                            <div class="project-tech">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>AWS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">Visit Website</a>
+                                <a href="#" class="btn secondary-btn">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="web">
+                        <div class="project-image">
+                            <img src="images/project1.svg" alt="Analytics Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Analytics Dashboard</h3>
+                            <p class="project-category">Web Development</p>
+                            <p class="project-description">A real-time analytics dashboard that visualizes complex data sets and provides actionable insights for business decision-making.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                                <span>Firebase</span>
+                                <span>REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">View Demo</a>
+                                <a href="#" class="btn secondary-btn">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile App Projects 
+                    <div class="project-item" data-category="mobile">
+                        <div class="project-image">
+                            <img src="images/project2.svg" alt="Health Tracking App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Health Tracking App</h3>
+                            <p class="project-category">Mobile Development</p>
+                            <p class="project-description">A comprehensive health tracking mobile application that monitors physical activity, nutrition, and sleep patterns to provide personalized health recommendations.</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Health APIs</span>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">App Store</a>
+                                <a href="#" class="btn secondary-btn">Google Play</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="mobile ai">
+                        <div class="project-image">
+                            <img src="images/project3.svg" alt="AR Navigation App">
+                        </div>
+                        <div class="project-content">
+                            <h3>AR Navigation App</h3>
+                            <p class="project-category">Mobile Development & AI</p>
+                            <p class="project-description">An augmented reality navigation application that provides immersive, real-time directions and information about surroundings using computer vision and AI.</p>
+                            <div class="project-tech">
+                                <span>Swift</span>
+                                <span>ARKit</span>
+                                <span>Core ML</span>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">View Demo</a>
+                                <a href="#" class="btn secondary-btn">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     Research Projects 
+                    <div class="project-item" data-category="research">
+                        <div class="project-image">
+                            <img src="images/project1.svg" alt="Ethical AI Framework">
+                        </div>
+                        <div class="project-content">
+                            <h3>Ethical AI Framework</h3>
+                            <p class="project-category">Research & Development</p>
+                            <p class="project-description">A comprehensive framework for developing and deploying ethical AI systems, focusing on fairness, transparency, and accountability in artificial intelligence.</p>
+                            <div class="project-tech">
+                                <span>Research</span>
+                                <span>Ethics</span>
+                                <span>Policy Development</span>
+                                <span>AI Governance</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">Research Paper</a>
+                                <a href="#" class="btn secondary-btn">Framework Guide</a>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <div class="project-item" data-category="research ai">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Neural Network Optimization">
+                        </div>
+                        <div class="project-content">
+                            <h3>Self Build Website</h3>
+                            <p class="project-category">Website</p>
+                            <p class="project-description">I'm Md Taju, a B.Tech CSE (AI & ML) student at Vivekananda Global University, Jaipur. Here you'll find my projects, skills, and interests in coding, AI, and technology. Stay connected as I share my journey and innovations.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Self Build Website</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn primary-btn">Research Paper</a>
+                                <a href="#" class="btn secondary-btn">Presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Interested in working together?</h2>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Md Taju</h2>
+                    <p>AI & ML Enthusiast | Exploring New Technologies</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Connect & Follow us</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/md_taju0908/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/md.taju0908/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/md-taju0908/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/md_taju0908/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/@md_taju0908" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Md Taju. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
